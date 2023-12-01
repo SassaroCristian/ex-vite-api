@@ -8,9 +8,9 @@ export default {
 </script>
 
 <template>
-    <div class="card w-96 bg-gradient-to-tr from-orange-400 to-red-700 p-10 m-5">
-        <h2 class="font-bold ">{{ info.name }}</h2>
-        <p>Brewery type: {{ info.brewery_type }}</p>
+    <div class="card w-96 h-44 bg-gradient-to-tr from-yellow-400 to-red-700 p-10 m-5">
+        <h2 class=" text-2xl font-extrabold">{{ info.name }}</h2>
+        <p class="text-lg">Brewery type: {{ info.brewery_type }}</p>
         <p>Address: {{ info.address_1 }}</p>
     </div>
 </template>

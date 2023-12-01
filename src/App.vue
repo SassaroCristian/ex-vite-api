@@ -32,13 +32,12 @@ export default {
 </script>
 
 <template>
-  <div class="text-center">
-    <h1 class="text-5xl font-extrabold p-10  bg-gradient-to-tr from-teal-400 to-teal-600">Discover Polish Brews: Filter
-      Your Flavorful Journey by Brewery Type!</h1>
-    <searchBar class="m-auto py-10" @search="handleSearch" />
-    <div class="flex m-auto flex-wrap justify-center">
-      <breweryCard v-for="brewery in store.breweries" :info="brewery" />
-    </div>
+  <h1 class=" text-center text-5xl font-extrabold p-10 bg-gradient-to-tr from-teal-400 to-teal-600">Discover Polish Brews:
+    Filter
+    Your Flavorful Journey by Brewery Type!</h1>
+  <searchBar class="m-auto py-10" @search="handleSearch" />
+  <div class="flex m-auto flex-wrap justify-center">
+    <breweryCard v-for="brewery in store.breweries" :info="brewery" />
   </div>
 </template>
 
