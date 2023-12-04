@@ -28,7 +28,7 @@ export default {
                 class="block w-full p-4 ps-10 text-sm text-brown-900 border border-brown-300 rounded-lg bg-brown-50 focus:ring-orange-500 focus:border-orange-500 dark:bg-brown-700 dark:border-brown-600 dark:placeholder-brown-400 dark:text-white dark:focus:ring-orange-500 dark:focus:border-orange-500"
                 placeholder="Search your type..." required>
             <button type="submit"
-                class="text-white absolute end-2.5 bottom-2.5  bg-gradient-to-tr from-orange-400 to-red-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Search</button>
+                class="text-white absolute end-2.5 bottom-2.5  bg-gradient-to-tr from-teal-400 to-teal-600 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Search</button>
         </div>
     </form>
 </template>
